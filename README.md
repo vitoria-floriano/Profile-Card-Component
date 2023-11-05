@@ -6,7 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## My process
 
-- I built the HTML document a few times, until I thought it was good enough for me to work in a simple and effective way. I created the entire document with a certain dynamism, but I had a little difficulty centering the card. So I went by my own logic, which I managed to get results, instead of the default behavior, I researched the positioning of the flexbox in the body tag, and I didn't see anything about it not being semantic, so I believe I have solved the problem.
+I had some difficulty with the centralization, especially of the container itself, but I managed to understand better when asking for help, and thus I was able to open my vision a little more and better study some semantics and organizations in the code.
 
 ### Built with
 
@@ -35,29 +35,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-The Flexbox showed me that sometimes I have to think outside the box, or create an outer box. This was the line of reasoning that gave me the expected result. In theory, I should put the rules to center the container, in its own selector, but it didn't work, and I thought, this is not where you want to be and work, but I'll make you understand me, so I thought, this box is inside a bigger box, the screen, so I'm going to work on it, the movement happened. I realized that with Flexbox you style what is inside the container, I thought, this container is inside another container, it's simple.
-
-```html
-<body>
-  <main class="container">
-  </main>
-</body>
-```
-```css
-/* HERE I HAVE THE RESULT */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* HERE DON'T */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-```
+I had some difficulty with centralization, especially the container itself, but I managed to understand better when asking for help, some coworkers helped me, and so I was able to open my vision a little more and better study some semantics and organizations in the code.
 
 ### Continued development
 
