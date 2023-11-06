@@ -17,7 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./src/images/project-victor.png)
+![](./src/images/screenshot-new.png)
 
 
 ## My process
